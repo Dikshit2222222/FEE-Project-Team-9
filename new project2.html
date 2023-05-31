@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Project</title>
+    <style>
+      h1{
+        color: rgb(15, 15, 156);
+        position:relative;
+        margin-top: 10px;
+        margin-left: 200px;
+        font-size: 150px;
+        color: transparent;
+        -webkit-text-stroke: 1px rgb(215, 152, 57);
+        background: url("back.png");
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+      }
+      @keyframes back{
+        100%{
+          background-position: 2000px 0;
+         } 
+      }
+      .a{
+        position: absolute;
+        max-height:400px; 
+        max-width: 400px;
+        margin-top: 250px;
+        margin-left: 850px;
+        
+        
+      }
+      .back-video{
+        position: absolute;
+        right: 0;
+        
+        bottom: 0;
+        max-width: 150%;
+        max-height: 150%;
+       
+        height:1000000000px;
+       
+        z-index: -100;
+        
+      }
+      pre{
+        color: rgb(225, 91, 29);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        margin-top: 15%;
+        
+      }
+      a{
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <video autoplay loop class="back-video" muted plays-inline><source src="1099990763.mp4"></video>
+       <div class="a">
+          <a href="isaac.html"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Isaac_Newton%2C_English_School%2C_1715-20.jpg" alt="" height="400" width="400"></a> 
+        </div>  
+          <a href="isaac.html"><h1 class="m">ISAAC NEWTON</h1>   </a> 
+          <pre>'What we know is a <b>drop</b>,
+            what we don't know is an <b>ocean</b>'
+          </pre>
+  </body>
+</html>
